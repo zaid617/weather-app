@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1 class="mainHeading">Weather App</h1>
+        </div>
+    </header>
+    <div class="main">
+        <div class="containter">
+            <div class="search flex">
+                <input type="text" placeholder="Enter Your City Name" id="search">
+                <button id="btn" onclick="data()">Search</button>
+            </div>
+            <div class="currentTem flex"><img id="icon" alt="">
+                <h2 id="temp_c"></h2>
+            </div>
+            <div class="location flex margin">
+                <u><h3 id="city"></h3></u>
+                <h4 id="condition" class="color"></h4>
+            </div>
+            <div class="more flex">
+                <h4 class="color" id="feel"></h4>
+                <h4 id="humidity"></h4>
+            </div>
+            <div class="more flex">
+                <h4 class="color" id="feel2"></h4>
+                <h4 id="wind_kph"></h4>
+            </div>
+            <div class="more flex">
+                <h4 class="color" id="precip_in"></h4>
+                <h4 id="visibility"></h4>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
