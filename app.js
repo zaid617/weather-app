@@ -10,17 +10,16 @@ let data = () => {
 
             let icon = data.current.condition.icon;
             icon.replace("/file// ");
-            document.querySelector("#icon").src = icon;
+            document.querySelector("#wind_kph").innerText = "Wind: " + data.current.wind_kph + "kph";
             document.querySelector("#temp_c").innerText = data.current.temp_c + "°C";
             document.querySelector("#city").innerText = data.location.name
             document.querySelector("#condition").innerText = data.current.condition.text;
-            document.querySelector("#feel").innerText = "Feels: " + data.current.feelslike_c + "°C";
-            document.querySelector("#feel2").innerText = "Feels: " + data.current.feelslike_f + "°F";
-            document.querySelector("#wind_kph").innerText = "Wind: " + data.current.wind_kph + "kph";
-            document.querySelector("#humidity").innerText = "Humidity: " + data.current.humidity + "%";
-            document.querySelector("#precip_in").innerText = "Precipitation: " + data.current.precip_in + "%";
+            document.querySelector("#feel").innerText = "Feels: " + data.current.feelslike_c+"°C";
+            document.querySelector("#feel2").innerText = "Feels: " + data.current.feelslike_f+"°F";
+            document.querySelector("#humidity").innerText = "Humidity: " + data.current.humidity+"%";
+            document.querySelector("#precip_in").innerText = "Precipitation: " + data.current.precip_in+"%";
             document.querySelector("#visibility").innerText = "Visibility : " + data.current.vis_km + "km";
-
+            document.querySelector("#icon").src = icon;
 
         })
 
