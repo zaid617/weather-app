@@ -16,7 +16,7 @@ h4 {
 header {
     display: flex;
     align-items: center;
-    background: black;
+    background: #4d2c47;
     color: white;
 
 }
@@ -24,6 +24,8 @@ header {
 .mainHeading {
     font-size: 2.5rem;
     padding: 1rem;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .main {
@@ -48,9 +50,7 @@ header {
     -webkit-backdrop-filter: blur(8px);
 
 }
-#sb{
-    font-size: 13px;
-}
+
 #search {
     text-align: left;
     font-weight: 100;
