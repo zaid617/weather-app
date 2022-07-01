@@ -1,0 +1,38 @@
+.mainHeading{
+    font-size: 2.2rem;
+    padding: 1rem;
+}
+.containter{
+    padding: 20px;
+}
+
+h3{
+    font-size: 1rem;
+}
+h4{
+    font-size: 0.7rem;
+}
+#temp_c{
+    font-size: 40px;
+}
+#icon{
+    width: 55px;
+}
+.flex{
+    width: 180px;
+}
+#search {
+    width: 118px;
+    text-align: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 0px;
+    padding-left: 4px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+#btn {
+    padding: 3px;
+    font-size: 10px;
+    border-radius: 5px;
+}

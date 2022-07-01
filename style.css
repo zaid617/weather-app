@@ -43,10 +43,11 @@ header{
     
 }
 #search{
-    text-align: center;
+    text-align: left;
     padding-top: 8px;
     padding-bottom: 8px;
-    padding-right: 60px;
+    padding-right: 40px;
+    padding-left: 30px;
     border-radius: 15px;
     font-size: 16px;
 }
